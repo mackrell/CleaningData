@@ -50,5 +50,6 @@ dat <- dat %>% rename_with(~ tolower(gsub("tbody", "time_body", .x, fixed = TRUE
 dat <- dat %>% rename_with(~ tolower(gsub("tgravity", "time_gravity", .x, fixed = TRUE,)))
 dat <- dat %>% rename_with(~ tolower(gsub("fbody", "frequency_body", .x, fixed = TRUE,)))
 
+# Create a final tidy data file, and export it as a .txt file.
 new_tidy_data <- dat %>% group_by(subject, activity) %>% summarise_all(mean)
 write.table(new_tidy_data, file = 'TidyData.txt', row.names = FALSE)
