@@ -1,5 +1,7 @@
-Human Activity Recognition Using Smartphones Dataset
-Version 2.0
+
+# Coursera Getting and Cleaning Data Final Course Project
+
+Human Activity Recognition Using Smartphones Dataset Version 2.0
 ==================================================================
 
 ## Original Data source
