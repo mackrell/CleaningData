@@ -45,6 +45,8 @@ The dataset includes the following files:
 
 - 'TidyData.txt': A final clean tidy data set, containing hte mean value of each variable for each activity for each subject.
 
+- 'run_analysis.R': an R script that downloads the data and performs the necessary analysis
+
 License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
